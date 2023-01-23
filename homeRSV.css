@@ -425,7 +425,7 @@ body {
 }
 
 .pricingList li {
-  list-style-image: url(../MP1/MP-1-images/PRICINGIMG/check.png);
+  list-style-image: url(./MP-1-images/PRICINGIMG/check.png);
 }
 
 li span {
