@@ -20,7 +20,7 @@ body {
 .nav-link1:hover {
   -webkit-animation: nav-link1 0.8s ease-in-out;
           animation: nav-link1 0.8s ease-in-out;
-  border-bottom: 2px solid rgb(242, 255, 101);
+  border-bottom: 2px solid rgb(172, 137, 253);
 }
 
 @-webkit-keyframes nav-link1-animation {
