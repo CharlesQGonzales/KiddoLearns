@@ -17,29 +17,6 @@ body {
   border-bottom: 2px solid transparent;
 }
 
-.nav-link1:hover {
-  -webkit-animation: nav-link1 0.8s ease-in-out;
-          animation: nav-link1 0.8s ease-in-out;
-  border-bottom: 2px solid rgb(172, 137, 253);
-}
-
-@-webkit-keyframes nav-link1-animation {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
-
-@keyframes nav-link1-animation {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
 #nav-button {
   margin-right: 25px;
   -webkit-box-shadow: 2px 4px rgb(120, 213, 253);
