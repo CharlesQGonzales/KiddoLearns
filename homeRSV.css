@@ -57,7 +57,6 @@ body {
   width: 100%;
   background-color: rgb(255, 233, 177);
   position: fixed;
-  border-bottom-left-radius: 100px;
   -webkit-box-shadow: 5px 5px rgb(231, 195, 106);
           box-shadow: 5px 5px rgb(231, 195, 106);
   z-index: 5000;
