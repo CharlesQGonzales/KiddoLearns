@@ -2,11 +2,6 @@
   font-family: "Kulim Park", sans-serif;
 }
 
-* {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
 body {
   overflow-x: hidden;
 }
@@ -23,13 +18,9 @@ body {
   border: 1px solid rgb(132, 203, 250);
 }
 
-#logo {
-  margin-left: 80px;
-}
-
 #top-nav {
   top: 0px;
-  height: 70px;
+  height: 80px;
   width: 100%;
   background-color: rgb(255, 233, 177);
   position: fixed;
@@ -40,6 +31,18 @@ body {
 
 .nav-item {
   margin-left: 20px;
+}
+
+#navbar {
+  background-color: #990000;
+  position: fixed;
+  z-index: 1; /*Add this*/
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+  top: 0px;
 }
 
 #nav-2 {
@@ -405,7 +408,7 @@ body {
 
 li span {
   min-width: 10px;
-  font-size: 30px;
+  font-size: 24px;
 }
 
 #pricingList img {
@@ -526,4 +529,59 @@ li span {
 .button-80:not(:disabled):active {
   -webkit-transform: translateY(0.125rem);
           transform: translateY(0.125rem);
+}
+
+.btn-3 {
+  position: relative;
+  font-size: 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1em 2.5em;
+  display: inline-block;
+  border-radius: 6em;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  border: none;
+  font-family: inherit;
+  font-weight: 500;
+  color: black;
+  background-color: white;
+}
+
+.btn3-:hover {
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn-3:active {
+  -webkit-transform: translateY(-1px);
+          transform: translateY(-1px);
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-3::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.btn-3::after {
+  background-color: #fff;
+}
+
+.btn-3:hover::after {
+  -webkit-transform: scaleX(1.4) scaleY(1.6);
+          transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
 }

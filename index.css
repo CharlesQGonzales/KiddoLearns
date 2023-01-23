@@ -23,6 +23,10 @@ body {
   border-bottom: 2px solid rgb(242, 255, 101);
 }
 
+.navbar-menu {
+  transition: all 0.5s ease;
+}
+
 @-webkit-keyframes nav-link1-animation {
   from {
     width: 0;

@@ -16,5 +16,39 @@ items.forEach((el) => {
 
 AOS.init();
 
+$('.navbar-collapse a').click(function() {
+    $(".navbar-collapse").collapse('hide');
+  });
+
+  $(document).ready(function(){
+    $("#toggleButton").click(function(){
+        $("#myContent").fadeToggle();
+    });
+});
+
+$(document).ready(function(){
+    $("#toggleButton1").click(function(){
+        $("#myContent1").fadeToggle();
+    });
+});
+
+$(document).ready(function(){
+    $("#toggleButton3").click(function(){
+        $("#myContent3").fadeToggle();
+    });
+});
+
+$('.navbar-toggler').on('click', function() {
+    $('.navbar-menu').slideToggle();
+  });
+
+  
+
+  
+
+
+
+
+
 
 

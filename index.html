@@ -43,7 +43,7 @@
         >
           <img
             src="./MP-1-images/HOMEIMG/logo.png"
-            style="width: 50px"
+            style="width: 50px; margin-left: 50px"
             class="me-2"
           /><span id="kid">KID</span><span id="do">DO </span
           ><span id="lea">LEA</span><span id="rns">RNS</span>
@@ -54,21 +54,27 @@
           id="navbarSupportedContent"
         >
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="col-3 nav-link1 fs-5 text-dark" href="#About">About</a>
+            <li class="nav-item hvr-grow">
+              <a class="col-3 nav-link1 fs-5 me-5 text-dark" href="#About"
+                >About</a
+              >
             </li>
-            <li class="nav-item">
-              <a class="col-3 nav-link1 fs-5 ps-4 text-dark" href="#Features"
+            <li class="nav-item hvr-grow">
+              <a
+                class="col-3 nav-link1 fs-5 me-5 ps-4 text-dark"
+                href="#Features"
                 >Features</a
               >
             </li>
-            <li class="nav-item">
-              <a class="col-3 nav-link1 fs-5 ps-4 text-dark" href="#Services"
+            <li class="nav-item hvr-grow">
+              <a
+                class="col-3 nav-link1 fs-5 me-5 ps-4 text-dark"
+                href="#Services"
                 >Services</a
               >
             </li>
-            <li class="nav-item">
-              <a class="col-3 nav-link1 fs-5 ps-4 text-dark" href="#Blog"
+            <li class="nav-item hvr-grow">
+              <a class="col-3 nav-link1 fs-5 me-5 ps-4 text-dark" href="#Blog"
                 >Blog</a
               >
             </li>
@@ -80,39 +86,59 @@
       </div>
     </nav>
     <!--visible on sm-->
-    <nav id="top-nav" class="navbar navbar-expand-lg d-block d-sm-none">
-      <div>
-        <div class="row">
-          <a id="logo" class="navbar-brand nav-link col-1" href="#Home">
-            <img
-              src="./MP-1-images/HOMEIMG/logo.png"
-              style="width: 50px"
-              class="me-3"
-            />
-          </a>
-          <div
-            class="col-1 fixed-top dropdown d-block d-sm-none"
-            style="margin-left: 200px; margin-top: 20px"
-          >
-            <a
-              class="btn btn-info dropdown-toggle text-light"
-              href="#"
-              role="button"
-              id="dropdownMenuLink"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              Click Here!
-            </a>
-
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <li><a class="dropdown-item" href="#About">About</a></li>
-              <li><a class="dropdown-item" href="#Features">Features</a></li>
-              <li><a class="dropdown-item" href="#Services">Services</a></li>
-              <li><a class="dropdown-item" href="#Blog">Blog</a></li>
-              <li><a class="dropdown-item" href="#Contact">Contact</a></li>
-            </ul>
-          </div>
+    <nav
+      class="fixed-top navbar navbar-expand-lg navbar-light"
+      style="
+        width: 375px;
+        background-color: rgb(255, 233, 177);
+        box-shadow: 5px 5px rgb(231, 195, 106);
+      "
+    >
+      <div class="container-fluid">
+        <a id="logo" class="navbar-brand d-flex col-lg-4" href="#Home">
+          <img
+            src="./MP-1-images/HOMEIMG/logo.png"
+            style="width: 50px"
+            class="me-2"
+          /><span class="fs-4 mt-2" id="kid">KID</span
+          ><span class="fs-4 mt-2" id="do">DO </span
+          ><span class="fs-4 mt-2" id="lea">LEA</span
+          ><span class="fs-4 mt-2" id="rns">RNS</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          style="
+            box-shadow: 1px 2px rgb(183, 205, 255);
+            border-color: rgb(183, 199, 255);
+            background-color: rgb(183, 237, 255); ;
+          "
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#About">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Blog">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Contact">Contact</a>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>
@@ -201,21 +227,18 @@
             ></path>
           </svg>
         </div>
-        <div class="custom-shape-divider-bottom-1674154618">
-          <div id="home-content1" class="row">
-            <div id="home-content2" class="col-lg-6 text-center">
-              <h4 style="color: rgb(171, 127, 39)">MODERN</h4>
-              <h1 id="h1home" class="display-1">Education<br />For kids</h1>
-              <h5>
-                Process of facilitating learning. or the acquisition of
-                knowledge
-              </h5>
-              <a class="nav-link" href="#Lessons"
-                ><button class="button-80" role="button">
-                  EXPLORE LESSONS
-                </button></a
-              >
-            </div>
+        <div id="home-content1" class="row">
+          <div id="home-content2" class="col-lg-6 text-center">
+            <h4 style="color: rgb(171, 127, 39)">MODERN</h4>
+            <h1 id="h1home" class="display-1">Education<br />For kids</h1>
+            <h5>
+              Process of facilitating learning. or the acquisition of knowledge
+            </h5>
+            <a class="nav-link" href="#Lessons"
+              ><button class="button-80" role="button">
+                EXPLORE LESSONS
+              </button></a
+            >
           </div>
         </div>
       </div>
@@ -286,32 +309,44 @@
             <h1 id="h1about" class="display-3 text-center">
               Support Children Developing Skills
             </h1>
-            <h5>
+            <h5 style="font-size: 15px">
               Education is the process of facilitating learning. or the
               acquisition of knowledge. skills, values, morals, beliefs, and
               habits
             </h5>
             <a class="nav-link" href="#Pricing">
-              <button class="button-80" role="button">About Us</button><br
+              <button class="button-80" role="button">
+                <span style="font-size: 15px">About Us</span></button
+              ><br
             /></a>
           </div>
         </div>
         <div class="about pt-5 pb-5">
           <div class="row">
             <div class="col-4">
-              <span class="display-4" style="color: rgb(171, 127, 39)">42</span>
+              <span class="display-4 fs-3" style="color: rgb(171, 127, 39)"
+                >42</span
+              >
               <img src="./MP-1-images/ABOUTIMG/world.png" width="40px" />
-              <p class="fs-3">Happy Client</p>
+              <h5 class="mt-1" style="font-size: 15px">
+                Happy Satisfied Client
+              </h5>
             </div>
-            <div class="col-4">
-              <span class="display-4" style="color: rgb(171, 127, 39)">73</span>
+            <div class="col-4 ps-4">
+              <span class="display-4 fs-3 ps-3" style="color: rgb(171, 127, 39)"
+                >73</span
+              >
               <img src="./MP-1-images/ABOUTIMG/teacher.png" width="40px" />
-              <p class="fs-3">Genuin Teachers</p>
+              <h5 class="mt-1 ps-4" style="font-size: 15px">Genuin Teachers</h5>
             </div>
-            <div class="col-4">
-              <span class="display-4" style="color: rgb(171, 127, 39)">9+</span>
+            <div class="col-4 ps-4">
+              <span class="display-4 fs-3 ps-3" style="color: rgb(171, 127, 39)"
+                >9+</span
+              >
               <img src="./MP-1-images/ABOUTIMG/medal.png" width="40px" />
-              <p class="fs-3">Years of Experience</p>
+              <h5 class="mt-1 ps-4" style="font-size: 15px">
+                Years of Experience
+              </h5>
             </div>
           </div>
         </div>
@@ -549,158 +584,176 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-4">
-              <div data-aos="fade-up" data-aos-duration="3000">
-                <div class="card1" style="width: 350px">
-                  <img
-                    src="./MP-1-images/LESSONSIMG/decision_making.jpg"
-                    class="card-img-top"
-                    style="width: 350px"
-                    alt="students_making_decision"
-                  />
-                  <div class="card-body ps-2">
-                    <h4
-                      class="card-title mt-2"
-                      style="color: rgb(171, 127, 39)"
-                    >
-                      Decision Making
-                    </h4>
+            <div id="myContent" style="display: none">
+              <div class="col-lg-4">
+                <div data-aos="fade-up" data-aos-duration="3000">
+                  <div class="card1" style="width: 350px">
                     <img
-                      id="teachers"
-                      src="./MP-1-images/LESSONSIMG/teacher1.jpeg"
+                      src="./MP-1-images/LESSONSIMG/decision_making.jpg"
+                      class="card-img-top"
+                      style="width: 350px"
+                      alt="students_making_decision"
                     />
-                    <span class="text-secondary ps-1">Sermir R. Joaquin</span
-                    ><br />
-                    <a class="nav-link" href="#Pricing"
-                      ><button class="button-80" role="button">ENROLL</button
-                      ><span class="ps-2">$24</span></a
-                    >
+                    <div class="card-body ps-2">
+                      <h4
+                        class="card-title mt-2"
+                        style="color: rgb(171, 127, 39)"
+                      >
+                        Decision Making
+                      </h4>
+                      <img
+                        id="teachers"
+                        src="./MP-1-images/LESSONSIMG/teacher1.jpeg"
+                      />
+                      <span class="text-secondary ps-1">Sermir R. Joaquin</span
+                      ><br />
+                      <a class="nav-link" href="#Pricing"
+                        ><button class="button-80" role="button">ENROLL</button
+                        ><span class="ps-2">$24</span></a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div data-aos="fade-up" data-aos-duration="3000">
+                  <div class="card1" style="width: 350px">
+                    <img
+                      src="./MP-1-images/LESSONSIMG/creative_thinking.jpg"
+                      class="card-img-top"
+                      style="width: 350px"
+                      alt="student_girl_building_blocks"
+                    />
+                    <div class="card-body ps-2">
+                      <h4
+                        class="card-title mt-2"
+                        style="color: rgb(171, 127, 39)"
+                      >
+                        Creative Thinking
+                      </h4>
+                      <img
+                        id="teachers"
+                        src="./MP-1-images/LESSONSIMG/teacher4.jpg"
+                      />
+                      <span class="text-secondary ps-1">Israel L. Salmorin</span
+                      ><br />
+                      <a class="nav-link" href="#Pricing"
+                        ><button class="button-80" role="button">ENROLL</button
+                        ><span class="ps-2">$15</span></a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-lg-4">
+                  <div data-aos="fade-up" data-aos-duration="3000">
+                    <div class="card1" style="width: 350px">
+                      <img
+                        src="./MP-1-images/LESSONSIMG/critical_thinking.jpg"
+                        class="card-img-top"
+                        style="width: 350px"
+                        alt="Student_taking_quiz"
+                      />
+                      <div class="card-body ps-2">
+                        <h4
+                          class="card-title mt-2"
+                          style="color: rgb(171, 127, 39)"
+                        >
+                          Critical Thinking
+                        </h4>
+                        <img
+                          id="teachers"
+                          src="./MP-1-images/LESSONSIMG/teacher3.jpeg"
+                        />
+                        <span class="text-secondary ps-1"
+                          >Shulameth M. Amongos</span
+                        ><br />
+                        <a class="nav-link" href="#Pricing"
+                          ><button class="button-80" role="button">
+                            ENROLL</button
+                          ><span class="ps-2">$21</span></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div data-aos="fade-up" data-aos-duration="3000">
+                    <div class="card1" style="width: 350px">
+                      <img
+                        src="./MP-1-images/LESSONSIMG/self_awareness.jpg"
+                        class="card-img-top"
+                        style="width: 350px"
+                        alt="A_girl_student_standing"
+                      />
+                      <div class="card-body ps-2">
+                        <h4
+                          class="card-title mt-2"
+                          style="color: rgb(171, 127, 39)"
+                        >
+                          Self Awareness
+                        </h4>
+                        <img
+                          id="teachers"
+                          src="./MP-1-images/LESSONSIMG/teacher2.jpg"
+                        />
+                        <span class="text-secondary ps-1"
+                          >Rodelyn C. Aragon</span
+                        ><br />
+                        <a class="nav-link" href="#Pricing"
+                          ><button class="button-80" role="button">
+                            ENROLL</button
+                          ><span class="ps-2">$28</span></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div data-aos="fade-up" data-aos-duration="3000">
+                    <div class="card1" style="width: 350px">
+                      <img
+                        src="./MP-1-images/LESSONSIMG/learn_empathy.jpg"
+                        class="card-img-top"
+                        style="width: 350px"
+                        alt="three_students_smiling"
+                      />
+                      <div class="card-body ps-2">
+                        <h4
+                          class="card-title mt-2"
+                          style="color: rgb(171, 127, 39)"
+                        >
+                          Learn Empathy
+                        </h4>
+                        <img
+                          id="teachers"
+                          src="./MP-1-images/LESSONSIMG/teacher5.jpg"
+                        />
+                        <span class="text-secondary ps-1"
+                          >Maredith M. Auguis</span
+                        ><br />
+                        <a class="nav-link" href="#Pricing"
+                          ><button class="button-80" role="button">
+                            ENROLL
+                          </button>
+                          <span class="ps-1">$18</span></a
+                        >
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-lg-4">
-              <div data-aos="fade-up" data-aos-duration="3000">
-                <div class="card1" style="width: 350px">
-                  <img
-                    src="./MP-1-images/LESSONSIMG/creative_thinking.jpg"
-                    class="card-img-top"
-                    style="width: 350px"
-                    alt="student_girl_building_blocks"
-                  />
-                  <div class="card-body ps-2">
-                    <h4
-                      class="card-title mt-2"
-                      style="color: rgb(171, 127, 39)"
-                    >
-                      Creative Thinking
-                    </h4>
-                    <img
-                      id="teachers"
-                      src="./MP-1-images/LESSONSIMG/teacher4.jpg"
-                    />
-                    <span class="text-secondary ps-1">Israel L. Salmorin</span
-                    ><br />
-                    <a class="nav-link" href="#Pricing"
-                      ><button class="button-80" role="button">ENROLL</button
-                      ><span class="ps-2">$15</span></a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-lg-4">
-              <div data-aos="fade-up" data-aos-duration="3000">
-                <div class="card1" style="width: 350px">
-                  <img
-                    src="./MP-1-images/LESSONSIMG/critical_thinking.jpg"
-                    class="card-img-top"
-                    style="width: 350px"
-                    alt="Student_taking_quiz"
-                  />
-                  <div class="card-body ps-2">
-                    <h4
-                      class="card-title mt-2"
-                      style="color: rgb(171, 127, 39)"
-                    >
-                      Critical Thinking
-                    </h4>
-                    <img
-                      id="teachers"
-                      src="./MP-1-images/LESSONSIMG/teacher3.jpeg"
-                    />
-                    <span class="text-secondary ps-1">Shulameth M. Amongos</span
-                    ><br />
-                    <a class="nav-link" href="#Pricing"
-                      ><button class="button-80" role="button">ENROLL</button
-                      ><span class="ps-2">$21</span></a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4">
-              <div data-aos="fade-up" data-aos-duration="3000">
-                <div class="card1" style="width: 350px">
-                  <img
-                    src="./MP-1-images/LESSONSIMG/self_awareness.jpg"
-                    class="card-img-top"
-                    style="width: 350px"
-                    alt="A_girl_student_standing"
-                  />
-                  <div class="card-body ps-2">
-                    <h4
-                      class="card-title mt-2"
-                      style="color: rgb(171, 127, 39)"
-                    >
-                      Self Awareness
-                    </h4>
-                    <img
-                      id="teachers"
-                      src="./MP-1-images/LESSONSIMG/teacher2.jpg"
-                    />
-                    <span class="text-secondary ps-1">Rodelyn C. Aragon</span
-                    ><br />
-                    <a class="nav-link" href="#Pricing"
-                      ><button class="button-80" role="button">ENROLL</button
-                      ><span class="ps-2">$28</span></a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4">
-              <div data-aos="fade-up" data-aos-duration="3000">
-                <div class="card1" style="width: 350px">
-                  <img
-                    src="./MP-1-images/LESSONSIMG/learn_empathy.jpg"
-                    class="card-img-top"
-                    style="width: 350px"
-                    alt="three_students_smiling"
-                  />
-                  <div class="card-body ps-2">
-                    <h4
-                      class="card-title mt-2"
-                      style="color: rgb(171, 127, 39)"
-                    >
-                      Learn Empathy
-                    </h4>
-                    <img
-                      id="teachers"
-                      src="./MP-1-images/LESSONSIMG/teacher5.jpg"
-                    />
-                    <span class="text-secondary ps-1">Maredith M. Auguis</span
-                    ><br />
-                    <a class="nav-link" href="#Pricing"
-                      ><button class="button-80" role="button">ENROLL</button>
-                      <span class="ps-1">$18</span></a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
+            <button
+              href="#Lessons"
+              class="btn-3 data"
+              id="toggleButton"
+              style="width: 150px; margin-left: 100px; margin-top: 10px"
+            >
+              See more
+            </button>
           </div>
         </div>
       </div>
@@ -771,7 +824,7 @@
     </div>
     <!--visible on sm-->
     <div id="Features">
-      <div class="Features d-block d-sm-none" style="padding-bottom: 100px">
+      <div class="Features d-block d-sm-none" style="padding-bottom: 120px">
         <div class="custom-shape-divider-top-1674200820">
           <svg
             data-name="Layer 1"
@@ -1317,7 +1370,7 @@
                   src="./MP-1-images/BLOGIMG/blogActivities.jpg"
                   class="card-img-top mb-4"
                   alt="students_handling_colorful_thing"
-                  style="height: 300px"
+                  style="height: 207px"
                 />
                 <div class="card-body ps-3">
                   <h5 class="card-text">
@@ -1329,44 +1382,53 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4">
-            <div
-              data-aos="fade-left"
-              data-aos-offset="300"
-              data-aos-easing="ease-in-sine"
-              data-aos-duration="1000"
-            >
-              <div id="blogimg1">
-                <img
-                  src="./MP-1-images/BLOGIMG/blogStorytelling.jpg"
-                  class="card-img-top mb-1"
-                  alt="students_listening_on_teachers_storytelling"
-                />
-                <div class="card-body ps-3">
-                  <h5 class="card-text">
-                    <p class="fs-6 text-dark">17 March, 2020</p>
-                    Make your new healthy habit a priority.
-                  </h5>
-                  <p class="text-secondary">Education | Storytelling</p>
+          <div id="myContent1" style="display: none">
+            <div class="col-lg-4">
+              <div
+                data-aos="fade-left"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"
+                data-aos-duration="1000"
+              >
+                <div id="blogimg1">
+                  <img
+                    src="./MP-1-images/BLOGIMG/blogStorytelling.jpg"
+                    class="card-img-top mb-1"
+                    alt="students_listening_on_teachers_storytelling"
+                  />
+                  <div class="card-body ps-3">
+                    <h5 class="card-text">
+                      <p class="fs-6 text-dark">17 March, 2020</p>
+                      Make your new healthy habit a priority.
+                    </h5>
+                    <p class="text-secondary">Education | Storytelling</p>
+                  </div>
                 </div>
-              </div>
 
-              <div id="blogimg1">
-                <img
-                  src="./MP-1-images/BLOGIMG/blogSmart.jpg"
-                  class="card-img-top mb-2"
-                  alt="student_using_VR"
-                />
-                <div class="card-body ps-3">
-                  <h5 class="card-text">
-                    <p class="fs-6 text-dark">2 April, 2020</p>
-                    knowledge, skills, values, morals and habits.
-                  </h5>
-                  <p class="text-secondary">Education | Science</p>
+                <div id="blogimg1">
+                  <img
+                    src="./MP-1-images/BLOGIMG/blogSmart.jpg"
+                    class="card-img-top mb-2"
+                    alt="student_using_VR"
+                  />
+                  <div class="card-body ps-3">
+                    <h5 class="card-text">
+                      <p class="fs-6 text-dark">2 April, 2020</p>
+                      knowledge, skills, values, morals and habits.
+                    </h5>
+                    <p class="text-secondary">Education | Science</p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
+          <button
+            class="btn-3"
+            id="toggleButton1"
+            style="width: 150px; margin-left: 100px; margin-top: 30px"
+          >
+            See more
+          </button>
         </div>
       </div>
     </div>
@@ -1387,10 +1449,10 @@
             <p>Process of facilitating learning, or<br />the acquisition.</p>
             <ul class="pricingList">
               <li class="text-secondary">
-                <span class="">Process of facilitating</span>
+                <span>Process of facilitating</span>
               </li>
               <li class="text-secondary">
-                <span class="">Facilitating learning</span>
+                <span class="mb-5">Facilitating learning</span>
               </li>
               <li class="text-secondary">
                 <span class="">skills, morals, beliefs</span>
@@ -1413,7 +1475,7 @@
                 <span class="text-secondary">Education and knowledge</span>
               </li>
               <li>
-                <span class="text-secondary">more accurate health beliefs</span>
+                <span class="text-secondary">more accurate beliefs</span>
               </li>
               <li>
                 <span class="text-secondary">beliefs and knowledge</span>
@@ -1463,68 +1525,79 @@
         <h1 id="h1pricing" class="display-3 text-center">
           Beneficial To Your Overall Health
         </h1>
-        <div class="row pt-3">
-          <div id="pricingList" class="col-lg-4 ps-5 pb-4">
+        <div class="row pt-3 mt-2">
+          <div class="col-6">
             <img
               src="./MP-1-images/PRICINGIMG/lesson.png"
-              style="height: 130px"
-              class="text-center"
+              width="150px"
+              height="80px"
+              style="box-shadow: 2px 3px rgb(127, 247, 253)"
             />
-            <div class="row">
-              <h5 class="fs-4 ps-4 col-4" style="color: rgb(171, 127, 39)">
-                Lesson
-              </h5>
-              <p class="display-4 col-1 ps-4 fs-2 text-muted">|</p>
-              <h5 class="fs-4 col-4 pt-1 ps-5">Free</h5>
-              <a class="nav-link ps-3" href="#Contact">
-                <button class="button-80" role="button" style="width: 250px">
-                  <span class="ps-5"> GET STARTED</span>
-                </button></a
-              >
-            </div>
+            <h5 class="pt-2 ps-2" style="font-size: 18px">
+              <span style="color: rgb(171, 127, 39)">Lesson </span>/Free
+            </h5>
+
+            <button
+              class="button-80"
+              href="#Contact"
+              style="width: 150px; height: 50px"
+            >
+              <span style="font-size: 20px">Get Started</span>
+            </button>
           </div>
-          <div id="pricingList" class="col-lg-4 ps-5 pb-4">
+          <div class="col-6">
             <img
               src="./MP-1-images/PRICINGIMG/month.png"
-              style="height: 130px"
-              class="text-center"
+              width="150px"
+              height="77px"
+              style="box-shadow: 2px 3px rgb(127, 247, 253)"
             />
-            <div class="row">
-              <h5 class="fs-4 ps-4 col-4" style="color: rgb(171, 127, 39)">
-                Month
-              </h5>
-              <p class="col-1 display-4 ps-4 fs-2 text-muted">|</p>
-              <h5 class="fs-5 col-1 me-3">
-                $24<span class="text-muted fs-3">/month</span>
-              </h5>
-              <a class="nav-link ps-3" href="#Contact">
-                <button class="button-80" role="button" style="width: 250px">
-                  <span class="ps-5"> GET STARTED</span>
-                </button></a
+            <h5 class="pt-2 ps-2" style="font-size: 17px">
+              <span style="color: rgb(171, 127, 39)">Month </span
+              ><span class="text-muted"
+                ><span class="text-dark">$24</span>/month</span
               >
+            </h5>
+
+            <button
+              class="button-80 mt-1"
+              href="#Contact"
+              style="width: 150px; height: 50px"
+            >
+              <span style="font-size: 20px">Get Started</span>
+            </button>
+          </div>
+          <div id="myContent3" style="display: none">
+            <div class="col-6 mt-5">
+              <img
+                src="./MP-1-images/PRICINGIMG/year.png"
+                width="150px"
+                height="77px"
+                style="box-shadow: 2px 3px rgb(127, 247, 253)"
+              />
+              <h5 class="pt-2 ps-2" style="font-size: 17px">
+                <span style="color: rgb(171, 127, 39)">Year </span
+                ><span class="text-muted"
+                  ><span class="text-dark">$90</span>/month</span
+                >
+              </h5>
+
+              <button
+                class="button-80 mt-1"
+                href="#Contact"
+                style="width: 150px; height: 50px"
+              >
+                <span style="font-size: 20px">Get Started</span>
+              </button>
             </div>
           </div>
-          <div id="pricingList" class="col-lg-4 ps-5 pb-4">
-            <img
-              src="./MP-1-images/PRICINGIMG/year.png"
-              style="height: 130px"
-              class="text-center"
-            />
-            <div class="row">
-              <h5 class="fs-4 ps-4 col-4" style="color: rgb(171, 127, 39)">
-                Year
-              </h5>
-              <p class="display-4 col-1 ps-4 fs-2 text-muted">|</p>
-              <h5 class="fs-5 col-3 pt-1">
-                $190<span class="text-muted fs-4">/year</span>
-              </h5>
-              <a class="nav-link ps-3" href="#Contact">
-                <button class="button-80" role="button" style="width: 250px">
-                  <span class="ps-5"> GET STARTED</span>
-                </button></a
-              >
-            </div>
-          </div>
+          <button
+            class="btn-3"
+            id="toggleButton3"
+            style="width: 150px; margin-left: 100px; margin-top: 30px"
+          >
+            See more
+          </button>
         </div>
       </div>
     </div>
