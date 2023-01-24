@@ -496,8 +496,8 @@ li span {
   -webkit-user-select: none;
   -ms-touch-action: manipulation;
       touch-action: manipulation;
-  -webkit-box-shadow: 3px 5px rgb(132, 203, 250);
-          box-shadow: 3px 5px rgb(132, 203, 250);
+  -webkit-box-shadow: 2px 3px rgb(132, 203, 250);
+          box-shadow: 2px 3px rgb(132, 203, 250);
 }
 
 .button-80:not(:disabled):hover {
