@@ -1,3 +1,3 @@
 # KiddoLearns
 
-https://github.com/19CharlesGonzales98/KiddoLearns
+https://19charlesgonzales98.github.io/KiddoLearns/
